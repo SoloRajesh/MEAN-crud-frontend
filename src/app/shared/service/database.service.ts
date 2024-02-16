@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class DatabaseService {
-  url = 'http://localhost:5000/';
+  url = 'https://mean-crud-backend.vercel.app/';
 
   constructor(private http: HttpClient) {}
 
