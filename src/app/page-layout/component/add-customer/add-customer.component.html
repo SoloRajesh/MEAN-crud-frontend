@@ -1,0 +1,25 @@
+<form nz-form [formGroup]="myForm" class="login-form" (ngSubmit)="submitForm()">
+    <nz-form-item>
+      <nz-form-control nzErrorTip="Please enter Name!">
+        <nz-input-group nzPrefixIcon="user">
+          <input type="text" nz-input formControlName="name" placeholder="Name" />
+        </nz-input-group>
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+      <nz-form-control nzErrorTip="Please enter Address!">
+        <nz-input-group nzPrefixIcon="lock">
+          <input type="text" nz-input formControlName="address" placeholder="Address" />
+        </nz-input-group>
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-control nzErrorTip="Please enter Phone!">
+          <nz-input-group nzPrefixIcon="lock">
+            <input type="number" nz-input formControlName="phone" placeholder="Phone" />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+      <button type="submit" nz-button class="login-form-button login-form-margin" [nzType]="'primary'">Submit</button>
+      <button nz-button (click)="resetForm($event)">Reset</button>
+  </form>

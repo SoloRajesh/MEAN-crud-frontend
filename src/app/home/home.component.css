@@ -1,0 +1,63 @@
+.home{
+    height: 100%;
+    width: 100%;
+    background: url('../../assets/bg_img/pexels-radu-andrei-razvan-773594.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth{
+    height: 75%;
+    width: 60%;
+}
+.auth_left{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background:url('../../assets/bg_img/pexels-bozan-güzel-9884766.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-end-start-radius: 15px;
+    color: white;
+    font-style: oblique;
+}
+.auth_right{
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius: 15px;
+    border-end-end-radius: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.log_btn{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+}
+.btn_log{
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px;
+    width: 80px;
+}
+.btn_log:hover,.active1{
+    color: white;
+    background: #28a2d6;
+    border-radius: 20px;
+}
+.log_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
